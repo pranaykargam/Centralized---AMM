@@ -16,9 +16,57 @@
 
      ** Price of a tokens are determined by the equation x*y=k.
 <img src = "./images/Graph__1_.jpg">
-<img src = "./images/01.png"/>
+
+
+    x and y represent the quantities (not market values) of each token in the pool. The total value of one token in an AMM liquidity pool always matches the value of the other, keeping the pool balanced at all times.
+
+    k is a fixed value — the product of those x and y amounts — that must remain constant after each trade.
+
+
+## 🧠 Let’s illustrate this concept with an example
+    Starting pool: 10 ETH and 20,000 USDC. The constant product formula is 10 × 20,000 = 200,000 (k stays constant).
+
+      At this point, 1 ETH = 2,000 USDC.
+
+
+
+     A user wants to buy 1 ETH. After the trade, 9 ETH remain in the pool. To keep k = 200,000, we solve for USDC: 200,000 ÷ 9 ≈ 22,222.22 USDC.
+     
+     The new USDC balance is 22,222.22.
+
+    The user adds 2,222.22 USDC (22,222.22 - 20,000), making their effective price for 1 ETH: 2,222.22 USDC.
+
+
+
+
+    Why does the price increase? This is called slippage. A trade changes the token balances in the pool, which alters the price. Larger trades (relative to the pool size) cause more slippage. Bigger pools have more liquidity, so prices stay steadier even for bigger trades.
+
+
+## ⭐️ what is Slippage??
+
+     You see a price (quoted price), click buy/sell, but 
+     your order gets filled at a slightly different price; 
+     that gap is slippage.
+​
+
+    This can be better than you expect(positive slippage),
+    worse (negative slippage) 
+    or almost the same (zero slippage).
+
+
+<img src = "./images/06.png"/>
+
+
+
+
+
+
+
+
 
 ## ⭐️ Swap how many token to return in a trade?? 
+
+<img src = "./images/01.png"/>
 
    Swaping from Token A to Token B.
 
@@ -169,4 +217,10 @@ Likewise:
 
 
     
-                   
+## References:
+
+*  This blog post from Uniswap https://blog.uniswap.org/what-is-an-automated-market-maker provides a clear introduction to automated market makers (AMMs)
+
+* @ProgrammerSmart's  detailed video (https://www.youtube.com/watch?v=QNPyFs8Wybk) breaks down the mathematical foundations of Constant Product AMM.
+
+
