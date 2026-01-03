@@ -5,10 +5,17 @@
     
     What is an AMM?
 
-       Automated Market Maker is a smart contract based exchange that always quotes you a price using an on-chain formula instead of an order book of bids/asks from humans or bots. 
+      
+       * AMM = Automated Market Maker. It is a smart contract that:
+
+       * Holds two tokens in a pool,reserves X and Y.
+
+       * Always offers a price using a formula instead of an order book.
+
+      
 
      ** Price of a tokens are determined by the equation x*y=k.
-
+<img src = "./images/Graph__1_.jpg">
 <img src = "./images/01.png"/>
 
 ## ⭐️ Swap how many token to return in a trade?? 
