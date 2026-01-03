@@ -9,7 +9,7 @@
 
      ** Price of a tokens are determined by the equation x*y=k.
 
-<img src = "01.png"/>
+<img src = "./images/01.png"/>
 
 ## ⭐️ Swap how many token to return in a trade?? 
 
@@ -45,7 +45,7 @@ After Swap
 -   How many shares to Mint??
 
 
-<img src = "02.png"/>
+<img src = "./images/02.png"/>
    
 
 
@@ -87,7 +87,7 @@ finding S??
 
 - Adding liquidity increases K (area of XY)
 
-<img src = "03.png"/>
+<img src = "./images/03.png"/>
 
 
 ## ⭐️ What is L0 and L1??
@@ -122,7 +122,7 @@ dx/dy = X/Y So dy = Ydx/X
 
     dx/x√Y/√XY --(12)
 
-<img src = "04.png"/>
+<img src = "./images/04.png"/>
 
 
 ## ⭐️ Remove Liquidity: How many tokens to Withdraw??
