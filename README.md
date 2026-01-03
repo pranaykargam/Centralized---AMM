@@ -6,21 +6,29 @@
     What is an AMM?
 
       
-       * AMM = Automated Market Maker. It is a smart contract that:
+       * AMM = Automated Market Maker. It is a smart 
+        contract that:
 
        * Holds two tokens in a pool,reserves X and Y.
 
-       * Always offers a price using a formula instead of an order book.
+       * Always offers a price using a formula instead of 
+         an order book.
 
       
 
-     ** Price of a tokens are determined by the equation x*y=k.
+     ** Price of a tokens are determined by the equation 
+         x*y=k.
 
 
 
-    x and y represent the quantities (not market values) of each token in the pool. The total value of one token in an AMM liquidity pool always matches the value of the other, keeping the pool balanced at all times.
+      x and y represent the quantities (not market values)
+      of each token in the pool. The total value
+      of one token in an AMM liquidity pool always matches 
+      the value of the other, keeping the pool balanced at 
+      all times.
 
-    k is a fixed value — the product of those x and y amounts — that must remain constant after each trade.
+       k is a fixed value — the product of those x and y 
+    amounts — that must remain constant after each trade.
 
 
 ## 🧠 Let’s illustrate this concept with an example
@@ -37,9 +45,12 @@
     The user adds 2,222.22 USDC (22,222.22 - 20,000), making their effective price for 1 ETH: 2,222.22 USDC.
 
 
-
-
     Why does the price increase? This is called slippage. A trade changes the token balances in the pool, which alters the price. Larger trades (relative to the pool size) cause more slippage. Bigger pools have more liquidity, so prices stay steadier even for bigger trades.
+
+
+
+
+
 
 
 ## ⭐️ what is Slippage??
