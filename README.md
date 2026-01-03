@@ -15,7 +15,7 @@
       
 
      ** Price of a tokens are determined by the equation x*y=k.
-<img src = "./images/Graph__1_.jpg">
+
 
 
     x and y represent the quantities (not market values) of each token in the pool. The total value of one token in an AMM liquidity pool always matches the value of the other, keeping the pool balanced at all times.
