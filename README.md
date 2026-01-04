@@ -70,10 +70,10 @@
     worse (negative slippage) 
     or almost the same (zero slippage).
 
-<img src = "./images/Graph__1_.jpg"/>
+<img src = "./images/08.png"/>
 
 
-<img src = "./images/06.png"/>
+
 
 
 
