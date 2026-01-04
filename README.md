@@ -17,7 +17,7 @@
      ** Price of a tokens are determined by the equation 
          x*y=k.
 
-
+<img src = "./images/Graph__1_.jpg">
 
       x and y represent the quantities (not market values)
       of each token in the pool. The total value
@@ -69,6 +69,8 @@
     This can be better than you expect(positive slippage),
     worse (negative slippage) 
     or almost the same (zero slippage).
+
+<img src = "./images/Graph__1_.jpg"/>
 
 
 <img src = "./images/06.png"/>
@@ -307,5 +309,8 @@ Likewise:
 *  This blog post from Uniswap https://blog.uniswap.org/what-is-an-automated-market-maker provides a clear introduction to automated market makers (AMMs)
 
 * @ProgrammerSmart's  detailed video (https://www.youtube.com/watch?v=QNPyFs8Wybk) breaks down the mathematical foundations of Constant Product AMM.
+
+
+
 
 
