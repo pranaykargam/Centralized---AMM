@@ -149,5 +149,4 @@
 - [Uniswap Blog Post](https://blog.uniswap.org/what-is-an-automated-market-maker): A clear introduction to AMMs.
 - [ProgrammerSmart's Video](https://www.youtube.com/watch?v=QNPyFs8Wybk): A detailed breakdown of the mathematical foundations of Constant Product AMM.
 - (https://www.youtube.com/watch?v=Wb6MmUa0bu0&list=LL&index=2) 
-
 - Coding a Decentralised Exchange in Node.js from kirat.
